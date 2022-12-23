@@ -5,18 +5,47 @@
 	 padding:0;
 	
  }
+
+ .textp{
+	display: block;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 0em;
+	margin-bottom: 2em;
+}
  
 .main {
 	margin:2% 20%;
 	padding: 0% 1%;
 }
  
- /*****HEADERS*****/
+/*IMAGES*/
+.logo{
+	width: 8%;
+	border: 3px solid black;
+}
+
+.profile{
+	margin-left: 2em;
+	border: 3px solid black;
+	width: 25%;
+}
+
+.building{
+	margin: 1em;
+	border: 3px solid black;
+	width: 50%;
+}
+
+/*END-IMAGES*/
+
+/*HEADERS*/
 .pageheader{
 	color:white;
 	font-size:30pt;
 	font-weight:900;
  }
+ 
  h1{
 	color:#1e725b;
 	font-size:2em;
@@ -37,7 +66,7 @@
 	font-weight:900;
 	clear:both;
  }
-/*HEADERS*/
+/*END-HEADERS*/
 
 /*BLOCKQUOTE*/
 .quote{
@@ -243,10 +272,10 @@ div.coldiv{
 }
 /*END-SHOW*/
 
-.calcbutton{
+.button{
 	background-color:#0074b3;	
 	}
-.calcbutton:hover {
+.button:hover {
 	background-color: #005380;
 }
 
