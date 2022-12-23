@@ -6,49 +6,47 @@
 	
  }
  
-/* Style page content */
 .main {
-  margin:2% 20%; /* Same as the width of the sidebar */
-  padding: 0% 1%;
-  /*width:60%;*/
+	margin:2% 20%;
+	padding: 0% 1%;
 }
  
  /*****HEADERS*****/
 .pageheader{
-	 color:white;
-	 font-size:30pt;
-	 font-weight:900;
+	color:white;
+	font-size:30pt;
+	font-weight:900;
  }
  h1{
-	 color:#00263a;
-	 font-size:2em;
-	 font-weight:900;
+	color:#1e725b;
+	font-size:2em;
+	font-weight:900;
  }
  h2{
-	 font-size:1.5em;
-	 color:#00263a;
-	 font-weight:900;
+	color:#1e725b;
+	font-size:1.5em;
+	font-weight:900;
  }
  h3{	 
-	 color:#00263a;
-	 font-weight:900;
-	 clear:both;
+	color:#1e725b;
+	font-weight:900;
+	clear:both;
  }
  h4{
-	 color:#00263a;
-	 font-weight:900;
-	 clear:both;
+	color:#1e725b;
+	font-weight:900;
+	clear:both;
  }
-/*****HEADERS*****/
+/*HEADERS*/
 
-/*blockquote*/
+/*BLOCKQUOTE*/
 .quote{
 	font-size:1em;
 	border-left: 1px solid orange;
 	padding-left:5px;
 	margin-left:20px;
 	color:white;
-}/*quote*/
+}
 
 
 div.headerdiv{
@@ -62,18 +60,19 @@ div.rowdiv{
 	flex-direction:row;
 	margin:auto;
 }
+
 div.coldiv{
 	display:flex;
 	flex-direction:column;
 }
+
 .center{
 	display:block;
 	margin:auto;
 }
+/*END-BLOCKQUOTE*/
 
-/*****Components****/
-.textp{
-}
+/*Components*/
 .definition{
 	border-top: 1px solid #89B0AE;
 	border-bottom: 1px solid #89B0AE;	
@@ -82,27 +81,29 @@ div.coldiv{
 	color:black;
 	margin-top:40px;	
 }
-.example{	/**Worked out in text. Not collapsible*/
+.example{
 	padding:20px;
 	border-radius: 5px;
 	border: solid 2pt #ecf9ec;
 	margin:30px;	
 	clear:both;
 }
-.title{/*For examples*/
+
+.exampleTitle{
 	color:#00263a;
 	margin-bottom:1.5em;
 	font-weight:550;
 }
+
 .hook{ 	
-	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 	text-align: left;
 	padding:1em;
 	margin:0;
 	margin-bottom:3em;
 	border: 3px solid #00263a;
 }
-.hookcont{/*For examples relevant to the page hook.*/
+
+.hookcont{
 	text-align: left;
 	padding:1em;
 	margin:0;
@@ -111,16 +112,18 @@ div.coldiv{
 }
 
 .formula{
-  border-left:2px solid #008000 ;
-  margin-left: 30px;
-  display:inline-block;
-  padding-left:10px;
+	border-left:2px solid #008000 ;
+	margin-left: 30px;
+	display:inline-block;
+	padding-left:10px;
 }
-.titlelabel{ /*For formulas*/
+
+.titlelabel{
 	color:#00263a;
 	margin-bottom:1em;
 }
-.dyk{ /*Did you know? (Like card for now).*/
+
+.dyk{
 	width: 250px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-align: center;
@@ -128,143 +131,132 @@ div.coldiv{
 	margin:0px 10px 20px 20px;
 	font-size:.9em;
 }
+
 .notation{
-  /*border-bottom:1px solid #4400cc ;*/
-  background-color:#e6f6ff;
-  margin: auto; 
-  display:block;
-  padding:10px;
-  font-size:0.9em;
+	background-color:#e6f6ff;
+	margin: auto; 
+	display:block;
+	padding:10px;
+	font-size:0.9em;
 }
+
 .important{
-  border-left:1px solid #f4920b ;
-  padding-left: 10px;
-  margin:30px;
-  margin-left:50px;
-  display:inline-block;
+	border-left:1px solid #f4920b ;
+	padding-left: 10px;
+	margin:30px;
+	margin-left:50px;
+	display:inline-block;
 }
+
 .citelabel{
 	font-size: 0.7em;
 	color:gray;
 }
+
 .vennimg{
 	float:right; 
 	width:200px; 
 	margin: 0px 0px 10px 5px;
 }
+
 .colltitle{
 	color:white;
 	font-weight:550;
 }
+
 .center{
 	margin-left:auto;
 	margin-right:auto;
 	display:block;
 }
 
-
-/***Applets***/
-
-.appletbox{
-	border: 2px solid gray;
-	display:inline-block;
-	padding:20px;
-	margin:20px;	
-}
-.applet{
-	border: 5px solid lightgray;
-	padding:20px;
-	margin:20px;		
-}
-.appletlabel{
-	font-weight:700;
-	color:darkblue;	
-	margin:auto;
-}
-/***End Applets***/
-  
-/*****COLLAPSIBLE*****/ 
+/*COLLAPSIBLE*/
   /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  margin:10px 10px 0px 10px;
-  background-color: #00263a;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size:1rem;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	margin:10px 10px 0px 10px;
+	background-color: #00263a;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size:1rem;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: #004266;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-.collapsible:after {
-  color: white;
-  float: right;
-  margin-left: 5px;
-}
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  margin:10px 10px 10px 10px;
-  padding: 10px 18px;
-  display: none;
-  overflow: hidden;
-  background-color: white;
-  color: #444;
-} 
-/*****COLLAPSIBLE*****/
 
-/********EXPAND************/ /*For long examples*/
-.expand {
-  margin-bottom:10px;
-  background-color: #8cc084;
-  color: white;
-  cursor: pointer;
-  padding: 5px;
-  width: 65px;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.active, .collapsible:hover {
+	background-color: #004266;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.expand:hover {
-  background-color: #4e8745;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+.collapsible:after {
+	color: white;
+	float: right;
+	margin-left: 5px;
 }
-/* Style the expand content. Note: hidden by default */
-.expandcontent {
-  margin:0px 10px 10px 10px;
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
+
+.content {
+	margin:10px 10px 10px 10px;
+	padding: 10px 18px;
+	display: none;
+	overflow: hidden;
+	background-color: white;
+	color: #444;
 } 
-/********EXPAND************/
-/********SHOW************//*This is for derivations and such.*/
+/*END-COLLAPSIBLE*/
+
+/*EXPAND*/
+.expand {
+	margin-bottom:10px;
+	background-color: #8cc084;
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	width: 65px;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.expand:hover {
+	background-color: #4e8745;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.expandcontent {
+	margin:0px 10px 10px 10px;
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+} 
+/*END-EXPAND*/
+
+/*SHOW*/
 .show{	
-  width: 100%;  
-  text-align:center;
-  margin-top:20px;}
-/********SHOW************/
+	width: 100%;  
+	text-align:center;
+	margin-top:20px;
+}
+/*END-SHOW*/
+
 .calcbutton{
 	background-color:#0074b3;	
 	}
 .calcbutton:hover {
-  background-color: #005380;
+	background-color: #005380;
 }
 
-/*******LINKS*******/
+/*LINKS*/
 a.textlink{ /* Use this for any non-menu links*/
 	text-decoration: none;
 	color:gray;
 }
- /* unvisited link */
+
+/* unvisited link */
 a.textlink:link {
   color: gray;
 }
@@ -283,32 +275,37 @@ a.textlink:hover {
 a.textlink:active {
   color: blue;
 } 
-/*******LINKS*******/ 
+/*END-LINKS*/
 
-/***** TOP AND SITE MENU LINKS*******/
+/*SITE-MENU-LINKS*/
 a.sidelink{ 
 	text-decoration: none;
 	color:#0b0947;
 	font-weight:300;
 }
+
  /* unvisited link */
 a.sidelink:link {
   color: #0b0947;
   font-weight:300;
 }
+
 /* visited link */
 a.sidelink:visited {
   color: #0b0947;
   font-weight:300;
 }
+
 /* mouse over link */
 a.sidelink:hover {
   color: gray;
 }
+
 /* selected link */
 a.sidelink:active {
   color: gray;
 } 
+
 #toplink{/*Used to postion the 'top' link.*/
   position:fixed;
   right:1%;
@@ -317,6 +314,7 @@ a.sidelink:active {
   font-size:0.85em;
   text-align:center;
 }
+
 #sidelinkhr{
   position:fixed;
   right:1%;
@@ -325,6 +323,7 @@ a.sidelink:active {
   border: 1px solid lightgray;
   display:block;
 }
+
 #menulink{/*Used to postion the 'menu' link.*/
   position:fixed;
   right:1%;
@@ -332,27 +331,32 @@ a.sidelink:active {
   font-size:0.85em;
   text-align:center;
 }
+
 .arrow {
   border: solid #0b0947;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
 }
+
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
+
 .left {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+
 .up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
+
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-/***** TOP AND SITE MENU LINKS*******/
- 
+/*END-SITE-MENU-LINKS*/
+
