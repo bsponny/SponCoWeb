@@ -22,11 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-venv
-__pycache__
-*.pyc
-*.csv
-*.zip
-*.bak
-*.tsv
-db.sqlite3
