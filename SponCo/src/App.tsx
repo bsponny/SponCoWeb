@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import headerLogo from "./images/headerLogo.png"
+import header from "./images/header.png"
 import { Home } from './pages/Home'
 import { AboutUs } from './pages/AboutUs'
 import { Taxes } from './pages/Taxes'
@@ -14,8 +14,9 @@ function App() {
 		<div>
 		<div className="headerdiv">
 			<div className="pageheader homeheader">
-				<img src={headerLogo} className="logo" />
-				<div>Sponenburgh &amp; Co</div>
+				<img src={header} className="logo" />
+			</div>
+			<div className="contactLinks">
 				<div><a href="tel:+1-307-444-4272">(307)444-4272</a></div>
 				<div><a className="textlink" href="https://goo.gl/maps/2LSRLW2X8kCbhDu98">318 9th St Evanston, WY</a></div>
 			</div>

@@ -1,12 +1,14 @@
 import {useState} from "react"
+import header from "./../images/header.png"
 import office from "./../images/office.png"
+import slogan from "./../images/slogan.png"
 import {Navbar} from "../components/Navbar"
 
 export const Home = () => {
 	return (
 		<div>
 			<div className="main">
-				<h1>Sponenburgh &amp; Co</h1>
+				<img src={header} className="pageLogo" />
 				<img src={office} className="building" />
 				<p className="textlink">Located at <a href="https://goo.gl/maps/2LSRLW2X8kCbhDu98">318 9th St</a> in Evanston, WY!
 				Or give us a call at <a href="tel:+1-307-444-4272">(307)444-4272</a></p>
@@ -18,7 +20,7 @@ export const Home = () => {
 				<p>We are registered CPAs and offer personal and business income tax preparation and planning, personal financial planning, payroll, business and QuickBooks consulting, and full-service bookkeeping.</p>
 				<p>Through our approach to financial services we offer, we can help you in realizing your financial dreams.</p>
 				<h2>To sum-up our expert guided financial planning process:</h2>
-				<p>You Dream –&gt; We Plan –&gt; Sponenburgh Keeps Track –&gt; We Achieve Your Goals!</p>
+				<img src={slogan} className="slogan" />
 				<p>At Sponenburgh &amp; Co, we understand that each individual and business is different; as a result, we give equal importance to companies or individuals. Whether you are looking for long-term financial advice or would like an estimated tax refund, we can help.</p>
 				<p>We take pride in the fact that we can take the place of a full-time accounting department. As experienced accountants, we help run your business and not just report the numbers after the fact. Call for expert financial services in Southwest Wyoming and Northern Utah.</p>
 			</div>
