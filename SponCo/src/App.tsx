@@ -13,9 +13,11 @@ function App() {
 	return (
 		<div>
 		<div className="headerdiv">
-			<div className="pageheader homeheader">
-				<img src={header} className="logo" />
-			</div>
+			<a onClick={() => setPageName("Home")}>
+				<div className="pageheader homeheader">
+					<img src={header} className="logo" />
+				</div>
+			</a>
 			<div className="contactLinks">
 				<div><a href="tel:+1-307-444-4272">(307)444-4272</a></div>
 				<div><a className="textlink" href="https://goo.gl/maps/2LSRLW2X8kCbhDu98">318 9th St Evanston, WY</a></div>
