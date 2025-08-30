@@ -11,4 +11,8 @@ export default defineConfig({
 		  output: 'web.config',
 	  }),
   ],
-})
+	build: {
+		outDir: "docs"
+	},
+	base: './'
+});
